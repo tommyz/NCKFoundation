@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NCKFoundation'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Guide for private pods Test'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ Guide for private pods Cool QQ
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'NCKFoundation/Classes/**/*'
-  s.source_files = 'NCKFoundation/Classes/*.{h,m}'
+#  s.source_files = 'NCKFoundation/Classes/*.{h,m}'
+  s.source_files = 'NCKFoundation/Classes/*.{h,m}', 'NCKFoundation/Classes/ThirdParty/*.{h.m}'
   # s.resource_bundles = {
   #   'NCKFoundation' => ['NCKFoundation/Assets/*.png']
   # }
@@ -39,4 +40,5 @@ Guide for private pods Cool QQ
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency   'AFNetworking', '~> 3.1.0'
 end

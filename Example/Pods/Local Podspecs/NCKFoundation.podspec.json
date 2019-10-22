@@ -1,8 +1,8 @@
 {
   "name": "NCKFoundation",
   "version": "0.1.0",
-  "summary": "Guide for private pods",
-  "description": "Guide for private pods",
+  "summary": "Guide for private pods Test",
+  "description": "Guide for private pods Cool QQ",
   "homepage": "https://github.com/tommyz/NCKFoundation",
   "license": {
     "type": "MIT",
@@ -18,5 +18,13 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "NCKFoundation/Classes/*.{h,m}"
+  "source_files": [
+    "NCKFoundation/Classes/*.{h,m}",
+    "NCKFoundation/Classes/ThirdParty/*.{h.m}"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
 }
